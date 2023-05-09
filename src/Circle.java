@@ -8,14 +8,14 @@ public class Circle {
     private double area;
     private double circumference;
 
-    //=========================
+    //==================================================================================
     //create method constructor
 
     public Circle(double radius, String color){ //*******this is the method constructor
             setRadius(radius);
             setColor(color);
     }
-
+    //==================================================================================
     // create getter and setter
 
     public String getColor() {
